@@ -1,6 +1,10 @@
-Quyidagi 6 kunlik reja PHP Advanced va Laravel Core bo‘yicha chuqur o‘rganish uchun tuzilgan:
-
+1-hafta: PHP Advanced & Laravel Core
 1-kun: PHP Advanced – OOP & SOLID
+🔹 PHP OOP asoslari
+
+Class va Object
+Properties va Methods
+Constructor va Destructor
 🔹 OOP chuqur o‘rganish
 
 Inheritance, Polymorphism, Encapsulation
@@ -15,7 +19,23 @@ Interface Segregation Principle
 Dependency Inversion Principle
 📌 Amaliyot: Har bir SOLID prinsipini misollar bilan tushunish va kod yozish.
 
-2-kun: Design Patterns
+2-kun: PHP Advanced – Advanced Concepts
+🔹 Exception Handling & Error Handling
+
+try-catch-finally
+Custom Exceptions
+🔹 Namespaces & Autoloading
+
+use va namespace bilan ishlash
+Composer autoload
+🔹 Reflection API & Meta Programming
+
+ReflectionClass, ReflectionMethod, ReflectionProperty
+📌 Amaliyot:
+
+Custom exception yozish
+Composer autoload bilan ishlash
+3-kun: Design Patterns
 🔹 Asosiy dizayn patternlar
 
 Factory Pattern
@@ -27,7 +47,7 @@ Strategy Pattern
 Laravel’da Service Container va Dependency Injection
 📌 Amaliyot: Laravel’da Factory Pattern va Singleton Pattern asosida kichik loyiha tuzish.
 
-3-kun: Laravel Core – Service Container & Middleware
+4-kun: Laravel Core – Service Container & Middleware
 🔹 Service Container va Dependency Injection
 
 Laravel Container nima?
@@ -40,7 +60,7 @@ Request va Response jarayoni
 
 Middleware yozib, requestlarni filtrlash
 Service Container’dan foydalanib kodni toza qilish
-4-kun: Laravel Core – Events, Queues, Jobs
+5-kun: Laravel Core – Events, Queues, Jobs
 🔹 Events & Listeners
 
 Event-driven arxitektura
@@ -54,7 +74,7 @@ Jobs bilan ishlash
 
 Queue bilan ishlovchi kichik loyiha yozish
 Event va Listenerlar orqali real vaqtli jarayon qo‘shish
-5-kun: Unit Testing & Feature Testing (PHPUnit, Pest)
+6-kun: Unit Testing & Feature Testing (PHPUnit, Pest)
 🔹 Testing nima va nega kerak?
 
 Unit test va Feature test farqi
@@ -65,10 +85,9 @@ Model, Controller, va Middleware test qilish
 Mocking va Fake Testing
 📌 Amaliyot: Laravel loyihasida test yozish va uni ishlatish.
 
-6-kun: Yakuniy kun – Kod Refaktor va Amaliyot
+7-kun: Yakuniy kun – Kod Refaktor va Amaliyot
 🔹 Avval yozilgan kodni SOLID va Clean Code asosida refaktoring qilish
 🔹 O‘z loyihangda Service Container, Middleware, Events, va Jobs’larni qo‘shish
 🔹 Test yozib, kodni mustahkamlash
 
 📌 Amaliyot: Laravelda yozilgan kodga unit testlar yozish va testlardan o‘tishini tekshirish.
-
