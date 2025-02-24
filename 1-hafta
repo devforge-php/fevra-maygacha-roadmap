@@ -16,6 +16,11 @@ Mashq:
 
 Foydalanuvchidan ismini so‘rab, "Salom, [ism]" deb chiqaradigan PHP dastur yozish
 var_dump() bilan turli ma’lumot turlarini ekranga chiqarish
+
+✅ 
+
+
+
 2-kun (Seshanba) - Shart operatorlari va sikllar
 ✅ if, else, elseif
 ✅ switch-case
