@@ -1,93 +1,106 @@
-1-hafta: PHP Advanced & Laravel Core
-1-kun: PHP Advanced – OOP & SOLID
-🔹 PHP OOP asoslari
+1-hafta PHP o‘rganish rejasi
+Dushanba - Shanba (Har kuni 5 soat)
+Yakshanba (13 soat)
+PHP’ni asosiy tushunchalaridan boshlab, amaliy mashg‘ulotlarga qadar puxta o‘rganish uchun vaqtni optimal taqsimladim.
 
-Class va Object
-Properties va Methods
-Constructor va Destructor
-🔹 OOP chuqur o‘rganish
+Dushanbadan Shanbagacha (Har kuni 5 soat)
+1-kun (Dushanba) - PHP asoslari
+✅ PHP nima va u qanday ishlaydi?
+✅ PHP skript tuzilishi, .php fayllar
+✅ echo, print, var_dump() va ularning farqlari
+✅ PHP o‘zgaruvchilar (int, float, string, bool)
+✅ define() bilan konstantalar yaratish
+✅ PHP-da ma’lumotlarni chiqarish va debugging
 
-Inheritance, Polymorphism, Encapsulation
-Abstract classes va Interfaces
-Traits va Magic Methods
-🔹 SOLID prinsiplari
+Mashq:
 
-Single Responsibility Principle
-Open/Closed Principle
-Liskov Substitution Principle
-Interface Segregation Principle
-Dependency Inversion Principle
-📌 Amaliyot: Har bir SOLID prinsipini misollar bilan tushunish va kod yozish.
+Foydalanuvchidan ismini so‘rab, "Salom, [ism]" deb chiqaradigan PHP dastur yozish
+var_dump() bilan turli ma’lumot turlarini ekranga chiqarish
+2-kun (Seshanba) - Shart operatorlari va sikllar
+✅ if, else, elseif
+✅ switch-case
+✅ for, while, do-while sikllari
+✅ break va continue
+✅ Nested loops
 
-2-kun: PHP Advanced – Advanced Concepts
-🔹 Exception Handling & Error Handling
+Mashq:
 
-try-catch-finally
-Custom Exceptions
-🔹 Namespaces & Autoloading
+1 dan 100 gacha bo‘lgan sonlarni chiqaruvchi dastur yozish
+Juft va toq sonlarni ajratib ekranga chiqarish
+Foydalanuvchidan yosh so‘rab, "Voyaga yetgan" yoki "Voyaga yetmagan" deb chiqarish
+3-kun (Chorshanba) - Massivlar va ularni boshqarish
+✅ Indeksli (indexed array) va assotsiativ (associative array) massivlar
+✅ array_push(), array_pop(), array_merge()
+✅ foreach sikli orqali massivlarni chiqarish
+✅ implode(), explode(), json_encode(), json_decode()
+✅ array_filter(), array_map(), array_reduce()
 
-use va namespace bilan ishlash
-Composer autoload
-🔹 Reflection API & Meta Programming
+Mashq:
 
-ReflectionClass, ReflectionMethod, ReflectionProperty
-📌 Amaliyot:
+10 ta ism saqlovchi massiv yaratish va ularni ekranga chiqarish
+Foydalanuvchidan bir nechta qiymat olish va massivga saqlash
+Massivdan ma’lum bir elementni o‘chirib tashlash dasturi yozish
+4-kun (Payshanba) - Funksiyalar va scope
+✅ Funksiya yaratish (function myFunction() {})
+✅ Parametrlar va qaytish (return)
+✅ global, local, static o‘zgaruvchilar
+✅ Recursive (o‘zini chaqiruvchi) funksiyalar
 
-Custom exception yozish
-Composer autoload bilan ishlash
-3-kun: Design Patterns
-🔹 Asosiy dizayn patternlar
+Mashq:
 
-Factory Pattern
-Singleton Pattern
-Observer Pattern
-Strategy Pattern
-🔹 PHPda amaliy misollar
+2 ta son qabul qilib, ularning yig‘indisini qaytaruvchi funksiya yozish
+Berilgan son faktorialini hisoblovchi funksiya yozish
+Massiv ichidagi eng katta sonni topuvchi funksiya yozish
+5-kun (Juma) - Stringlar bilan ishlash
+✅ strlen(), str_replace(), substr(), strpos()
+✅ trim(), ltrim(), rtrim()
+✅ strtoupper(), strtolower()
+✅ sprintf(), printf()
+✅ RegEx (preg_match(), preg_replace())
 
-Laravel’da Service Container va Dependency Injection
-📌 Amaliyot: Laravel’da Factory Pattern va Singleton Pattern asosida kichik loyiha tuzish.
+Mashq:
 
-4-kun: Laravel Core – Service Container & Middleware
-🔹 Service Container va Dependency Injection
+"Hello, World!" ni teskari qilib chiqaruvchi dastur yozish
+"Salom, men PHP o‘rganayapman!" degan gap ichidagi so‘zlarni almashtirish
+Berilgan matnda so‘zlar sonini hisoblash
+6-kun (Shanba) - OOP (Object-Oriented Programming)
+✅ class, object, constructor, destructor
+✅ public, private, protected
+✅ static va self::
+✅ Inheritance (meros olish)
+✅ Interfaces va Abstract classes
 
-Laravel Container nima?
-Bind, Singleton, va Resolving
-🔹 Middleware
+Mashq:
 
-Custom middleware yaratish
-Request va Response jarayoni
-📌 Amaliyot:
+Car nomli klass yaratib, unga speed va color xususiyatlarini berish
+Student klassini yaratib, unga name, age va grade qo‘shish
+Animal klassidan Dog va Cat klasslarini meros olish
+Yakshanba (13 soat) - Loyihaviy ish va MySQL bilan bog‘lanish
+1-BO‘LIM (5 soat) - PHP va MySQL asoslari
+✅ MySQL bazasini yaratish (CREATE DATABASE)
+✅ Jadval yaratish (CREATE TABLE)
+✅ Ma’lumot qo‘shish, o‘chirish, yangilash (INSERT, UPDATE, DELETE)
+✅ PDO bilan MySQL bazasiga bog‘lanish
 
-Middleware yozib, requestlarni filtrlash
-Service Container’dan foydalanib kodni toza qilish
-5-kun: Laravel Core – Events, Queues, Jobs
-🔹 Events & Listeners
+Mashq:
 
-Event-driven arxitektura
-Laravelda event va listenerlar yaratish
-🔹 Queues & Jobs
+users jadvalini yaratish (id, name, email, password)
+Formdan foydalanuvchi ma’lumotlarini bazaga qo‘shish
+SELECT * FROM users orqali ma’lumotlarni ekranga chiqarish
+2-BO‘LIM (5 soat) - Amaliy loyiha (CRUD)
+✅ PHP va MySQL yordamida CRUD (Create, Read, Update, Delete) loyihasi qilish
+✅ Ma’lumotlarni qo‘shish, o‘qish, o‘zgartirish va o‘chirish
+✅ Bootstrap bilan oddiy UI qo‘shish
+✅ Formda validatsiya qo‘shish (empty(), isset(), filter_var())
 
-Queue qanday ishlaydi?
-Queue driverlar (Database, Redis, Amazon SQS)
-Jobs bilan ishlash
-📌 Amaliyot:
+3-BO‘LIM (3 soat) - Session va Cookie’lar
+✅ $_SESSION va $_COOKIE tushunchalari
+✅ Foydalanuvchi login va logout tizimini yaratish
+✅ Xatoliklarni ko‘rsatish (try-catch)
 
-Queue bilan ishlovchi kichik loyiha yozish
-Event va Listenerlar orqali real vaqtli jarayon qo‘shish
-6-kun: Unit Testing & Feature Testing (PHPUnit, Pest)
-🔹 Testing nima va nega kerak?
+Natija va Keyingi Qadamlar
+✅ PHP asoslarini o‘zlashtirish
+✅ MySQL bilan ishlashni o‘rganish
+✅ CRUD loyihasini tugatish
 
-Unit test va Feature test farqi
-PHPUnit va Pest Testing frameworklar
-🔹 Laravelda testing
-
-Model, Controller, va Middleware test qilish
-Mocking va Fake Testing
-📌 Amaliyot: Laravel loyihasida test yozish va uni ishlatish.
-
-7-kun: Yakuniy kun – Kod Refaktor va Amaliyot
-🔹 Avval yozilgan kodni SOLID va Clean Code asosida refaktoring qilish
-🔹 O‘z loyihangda Service Container, Middleware, Events, va Jobs’larni qo‘shish
-🔹 Test yozib, kodni mustahkamlash
-
-📌 Amaliyot: Laravelda yozilgan kodga unit testlar yozish va testlardan o‘tishini tekshirish.
+Mana shu reja bilan 1 hafta ichida PHP’ni yaxshi o‘rganib, amaliy loyihalar qilish darajasiga yetasan! 💪🔥
