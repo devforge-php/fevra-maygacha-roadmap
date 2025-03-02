@@ -1,0 +1,103 @@
+**Haftalik Laravel Deployment Rejasi**
+
+## **1-kun (Git - Asoslar va Ishlash jarayoni)**  
+**⏳ 5 soat**
+
+### **Git branchlar va ishlash jarayoni (2 soat)**
+- `git init`, `git clone`, `git branch`, `git checkout`, `git switch`
+- `git merge` va `git rebase` farqlari
+
+### **Pull Request va Code Review (2 soat)**
+- GitHub, GitLab yoki Bitbucket'da PR yaratish
+- Konfliktlarni hal qilish
+
+### **Amaliy mashg‘ulot (1 soat)**
+- O‘z loyihangda branch yaratish, kod qo‘shish, PR ochish, merge qilish
+
+---
+
+## **2-kun (CI/CD - GitHub Actions)**  
+**⏳ 5 soat**
+
+### **CI/CD asoslari (1 soat)**
+- Continuous Integration va Continuous Deployment tushunchalari
+
+### **GitHub Actions (2 soat)**
+- YAML formatida workflow yaratish
+- Laravel uchun CI/CD setup qilish
+
+### **Amaliy mashg‘ulot (2 soat)**
+- Laravel loyihang uchun GitHub Actions bilan avtomatlashtirish
+
+---
+
+## **3-kun (Jenkins va Laravel Forge)**  
+**⏳ 5 soat**
+
+### **Jenkins asoslari (2 soat)**
+- Jenkins o‘rnatish va konfiguratsiya
+- Laravel loyihasi uchun build pipeline yaratish
+
+### **Laravel Forge bilan deployment (2 soat)**
+- Forge orqali server yaratish va deploy qilish
+
+### **Amaliy mashg‘ulot (1 soat)**
+- O‘z loyihangni Jenkins yoki Laravel Forge orqali deploy qilish
+
+---
+
+## **4-kun (Envoy & Laravel Deployment)**  
+**⏳ 5 soat**
+
+### **Laravel Envoy (2 soat)**
+- Envoy skript yozish
+- Deployment jarayonini avtomatlashtirish
+
+### **Deployment usullari (Nginx & Apache) (2 soat)**
+- Laravelni Nginx va Apache serverlariga joylash
+
+### **Amaliy mashg‘ulot (1 soat)**
+- Laravel loyihangni Envoy orqali deploy qilish
+
+---
+
+## **5-kun (Supervisor va PM2 bilan Laravel Background Jobs)**  
+**⏳ 5 soat**
+
+### **Supervisor (2 soat)**
+- Laravel queue ishini avtomatlashtirish
+
+### **PM2 (Node.js uchun) (2 soat)**
+- Laravel websockets va queue monitoring
+
+### **Amaliy mashg‘ulot (1 soat)**
+- Supervisor yoki PM2 orqali Laravel workerlarni boshqarish
+
+---
+
+## **6-kun (Amaliy Deployment va Troubleshooting)**  
+**⏳ 5 soat**
+
+### **Deployment testlari (2 soat)**
+- GitHub Actions yoki Jenkins orqali avtomatik testlar
+
+### **Laravel production muhitini optimallashtirish (2 soat)**
+- `.env` sozlamalari, `php artisan config:cache` va `route:cache`
+
+### **Amaliy mashg‘ulot (1 soat)**
+- Laravel loyihangni serverga joylash va test qilish
+
+---
+
+## **7-kun (Qayta ko‘rib chiqish va yakuniy loyiha)**  
+**⏳ 5 soat**
+
+### **O‘tgan mavzularni takrorlash (2 soat)**
+
+### **Amaliy loyiha deployment (3 soat)**
+- Laravel loyihangni GitHub Actions yoki Jenkins orqali serverga deploy qilish
+
+---
+
+Ushbu reja asosida ishlasang, hafta oxirida Laravel loyihangni Git, CI/CD, Supervisor va PM2 bilan avtomatik deploy qilishni o‘rganib olasan! 🚀
+
