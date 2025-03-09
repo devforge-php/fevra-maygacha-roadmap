@@ -1,0 +1,122 @@
+# 3-Haftalik GraphQL & gRPC O'quv Rejasi
+
+## **1-hafta: GraphQL Asoslari & Laravel Lighthouse**
+
+### **1-kun: GraphQL Asoslari & Laravel Lighthouse**  
+**⏳ 5 soat**
+
+#### **GraphQL tushunchasi va REST bilan farqi (2 soat)**
+- GraphQL nima?
+- REST bilan solishtirish: afzalliklari va kamchiliklari
+- GraphQL arxitekturasi va ishlash tamoyillari
+
+#### **Laravelda Lighthouse o‘rnatish va sozlash (2 soat)**
+- `composer require nuwave/lighthouse`
+- GraphQL schema yaratish va sozlash
+- Playground orqali test qilish
+
+#### **Amaliy mashg‘ulot (1 soat)**
+- Oddiy GraphQL query yozish va ma'lumotlarni olish
+
+---
+
+### **2-kun: GraphQL Queries & Mutations**  
+**⏳ 5 soat**
+
+#### **GraphQL Queries (2 soat)**
+- Query sintaksisi
+- Laravelda query yozish va ishlatish
+- Data filtering, sorting va pagination
+
+#### **GraphQL Mutations (2 soat)**
+- Mutation tushunchasi
+- Laravelda Mutation yozish: ma'lumot qo‘shish, o‘chirish va tahrirlash
+- Middleware va autentifikatsiya
+
+#### **Amaliy mashg‘ulot (1 soat)**
+- CRUD amallarini bajaradigan GraphQL API yaratish
+
+---
+
+### **3-kun: GraphQL Subscriptions & Real-time Data**  
+**⏳ 5 soat**
+
+#### **GraphQL Subscriptions tushunchasi (2 soat)**
+- Subscriptions nima?
+- REST yoki WebSocketdan farqi
+
+#### **Laravelda Subscription yaratish (2 soat)**
+- Laravel WebSocket integratsiyasi
+- Real-time ma'lumotlar yangilanishi
+
+#### **Amaliy mashg‘ulot (1 soat)**
+- Foydalanuvchi qo‘shilganda avtomatik xabar berish uchun Subscription yozish
+
+---
+
+## **2-hafta: gRPC & ProtoBuf Asoslari**
+
+### **4-kun: gRPC & ProtoBuf Asoslari**  
+**⏳ 5 soat**
+
+#### **gRPC va REST API farqlari (1 soat)**
+- gRPC nima va nega kerak?
+- REST API bilan solishtirish
+
+#### **ProtoBuf sintaksisi va foydalanish (2 soat)**
+- `.proto` fayl yaratish
+- Data types va message strukturalari
+
+#### **Laravel bilan gRPC server yaratish (2 soat)**
+- Laravelda gRPC xizmat yaratish
+- gRPC endpoint sozlash
+
+---
+
+### **5-kun: gRPC Client & Server Integratsiyasi**  
+**⏳ 5 soat**
+
+#### **gRPC Client yaratish (2 soat)**
+- Laravel gRPC client sozlash
+- Server bilan ulanish
+
+#### **gRPC orqali xizmatlar o‘zaro muloqoti (2 soat)**
+- Laravel dan boshqa xizmatlarga murojaat qilish
+
+#### **Amaliy mashg‘ulot (1 soat)**
+- Laravel gRPC orqali ikki xizmatni bog‘lash
+
+---
+
+## **3-hafta: GraphQL & gRPC Deployment**
+
+### **6-kun: GraphQL & gRPC Deployment**  
+**⏳ 5 soat**
+
+#### **GraphQL API-ni deploy qilish (2 soat)**
+- GraphQL API-ni production muhitga chiqarish
+- Autentifikatsiya va xavfsizlik choralari
+
+#### **gRPC deployment va testing (2 soat)**
+- gRPC xizmatlarini production muhitga chiqarish
+- `grpcurl` bilan test qilish
+
+#### **Amaliy mashg‘ulot (1 soat)**
+- Laravelda GraphQL va gRPC API-larini deploy qilish
+
+---
+
+### **7-kun: Qayta ko‘rib chiqish va yakuniy loyiha**  
+**⏳ 5 soat**
+
+#### **O‘tgan mavzularni takrorlash (2 soat)**
+
+#### **Yakuniy loyiha (3 soat)**
+- Laravelda GraphQL va gRPC integratsiya qilgan holda yakuniy loyiha ishlab chiqish
+- API-larni Postman yoki GraphQL Playground bilan test qilish
+
+---
+
+### **📌 Natija**
+Ushbu reja asosida ishlasang, hafta oxirida Laravelda GraphQL va gRPC bilan to‘liq ishlashni o‘rganib olasan! 🚀
+
