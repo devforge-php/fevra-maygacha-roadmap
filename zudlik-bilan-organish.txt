@@ -1,0 +1,101 @@
+**7 KUNDA DOCKER VA MIKROSERVISLAR USTASI BO‘LISH REJASI**
+
+---
+
+## **1-KUN (Dushanba) – Dockerning Asoslari**
+### **Nazariya:**  
+- Docker nima va nega kerak?  
+- Container vs Virtual Machine  
+- Docker Engine, Image, Container, Registry  
+- Docker CLI asosiy komandalar  
+
+### **Amaliyot:**  
+- Docker o‘rnatish (Linux yoki Windows)  
+- `docker run`, `docker ps`, `docker stop`, `docker rm`  
+- Tayyor image'larni ishga tushirish: `nginx`, `mysql`, `redis`  
+- Containerlarni sozlash (`-p`, `-v`, `--env`)  
+
+---
+
+## **2-KUN (Seshanba) – Dockerfile va Image Yaratish**
+### **Nazariya:**  
+- Docker image nima?  
+- Dockerfile sintaksisi va qatlamlar (layers)  
+- Caching va image optimizatsiyasi  
+
+### **Amaliyot:**  
+- Laravel yoki Python uchun **Dockerfile yozish**  
+- Image yaratish: `docker build -t myapp .`  
+- `docker inspect` orqali container ichini ko‘rish  
+- Custom environment variables bilan ishlash  
+
+---
+
+## **3-KUN (Chorshanba) – Docker Compose va Muammolarni Hal Qilish**
+### **Nazariya:**  
+- Docker Compose nima?  
+- `docker-compose.yml` tuzilishi  
+- Bir nechta service larni boshqarish  
+
+### **Amaliyot:**  
+- Laravel + MySQL + Redis uchun Docker Compose konfiguratsiyasi  
+- `.env` orqali konfiguratsiya boshqarish  
+- `docker-compose up -d` orqali butun tizimni ishga tushirish  
+- Muammolarni hal qilish (`docker logs`, `docker exec -it`)  
+
+---
+
+## **4-KUN (Payshanba) – Mikroservislar va Docker Networking**
+### **Nazariya:**  
+- Monolit vs Mikroservis arxitektura  
+- Docker network turlari (Bridge, Host, Overlay)  
+- Mikroservislar orasida aloqa qilish  
+
+### **Amaliyot:**  
+- **2 ta mikroservis yaratish** (`auth` va `order`)  
+- Containerlar orasida **HTTP request** orqali muloqot  
+- `docker network create` orqali maxsus tarmoq yaratish  
+- Servislar qanday qilib bir-biri bilan bog‘lanishini tushunish  
+
+---
+
+## **5-KUN (Juma) – Scaling, Load Balancing va Reverse Proxy**
+### **Nazariya:**  
+- Scaling nima va qanday amalga oshiriladi?  
+- Nginx, Traefik yoki HAProxy orqali Load Balancing  
+- Reverse Proxy orqali trafikni boshqarish  
+
+### **Amaliyot:**  
+- **Nginx orqali Load Balancing** (bir xil servisdan bir nechta yaratish)  
+- **Docker Swarm bilan avtomatik scaling**  
+- Mikroservislarga **Reverse Proxy qo‘shish**  
+- Servislarni **health check** qilish  
+
+---
+
+## **6-KUN (Shanba) – Logging, Monitoring va CI/CD**
+### **Nazariya:**  
+- Docker containerlar uchun loglarni yig‘ish  
+- Prometheus, Grafana, Loki orqali monitoring  
+- CI/CD va GitHub Actions bilan deploy qilish  
+
+### **Amaliyot:**  
+- **Mikroservislar uchun loglarni yig‘ish**  
+- **Grafana va Prometheus bilan real-time monitoring**  
+- GitHub Actions orqali **Docker image yaratish va Docker Hub‘ga push qilish**  
+- Avtomatik deployment qilish  
+
+---
+
+## **7-KUN (Yakshanba) – Real Mikroservis Loyihasi Yaratish va Yakuniy Mustahkamlash**
+### **Amaliyot:**  
+- **Laravel + Redis + PostgreSQL + Nginx** bo‘lgan to‘liq mikroservis loyihasi yaratish  
+- Servislar o‘zaro **REST API** orqali bog‘lanishi  
+- Barcha containerlarni Docker Compose orqali boshqarish  
+- **Scaling va monitoring ishlatish**  
+- Haqiqiy serverga deploy qilish (VPS yoki Kubernetes)  
+
+---
+
+**Shu rejaga amal qilsangiz, 7 kun ichida Docker va Mikroservislar bilan mustaqil ishlay oladigan darajaga yetasiz!**
+
